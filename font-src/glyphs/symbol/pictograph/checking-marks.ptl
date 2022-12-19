@@ -11,7 +11,7 @@ glyph-block Symbol-Pictograph-Checking-Marks : begin
 
 	for-width-kinds WideWidth1 : do
 		define Geom : GeometricDim MosaicUnitWidth MosaicWidth
-		define lightSw  : UnicodeWeightGrade 3    Geom.Scalar
+		define lightSw  : UnicodeWeightGrade 5    Geom.Scalar
 		# define mediumSw : UnicodeWeightGrade 5    Geom.Scalar
 		define heavySw  : UnicodeWeightGrade 9    Geom.Scalar
 
