@@ -18,11 +18,3 @@ inherits = "ss09"
 
 [buildPlans.iosevka-custom.variants.design]
 one = "no-base"
-
-# NOTE: gnome-terminal font width granularity is too big? shape=525 is the same as shape=500.
-# kitty,neovide,vscode render it correctly.
-# It seems that gnome-terminal only allows some fixed combinations for the cell size.
-[buildPlans.iosevka-custom.widths.normal]
-shape = 525
-menu = 5
-css = "normal"
